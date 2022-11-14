@@ -1,33 +1,27 @@
 import React from "react";
 import Logo from "./cryptox.jpg";
+import './Header.css';
 
 function Header() {
   return (
+    // Logo
     <div className="header__wrapper">
         <div className="header__logo">
-            <img src={Logo} width={50} />
+            <img src={Logo} width={100} />
         </div>
+        {/* Search */}
         <div className="header__search">
             <div className="header__searchContainer">
                 <input type="text" placeholder="Search" />
             </div>
         </div>
-        <div className="header__nav">
-            <div className="header__nav__item">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384063.svg" alt="Home" />
-            </div>
-            <div className="header__nav__item">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384063.svg" alt="Direct" />
-            </div>
-            <div className="header__nav__item">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384063.svg" alt="Explore" />
-            </div>
-            <div className="header__nav__item">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384063.svg" alt="Activity" />
-            </div>
-            <div className="header__nav__item">
-                <img src="https://www.flaticon.com/svg/static/icons/svg/1384/1384063.svg" alt="Profile" />
-            </div>
+        {/* Menu */}
+        <div className="header__menuItems">
+            <a href="#">News</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Cash</a>
+            <a href="#">Messages</a>
+            <a href="#">Account</a>
         </div>
     </div>
      
