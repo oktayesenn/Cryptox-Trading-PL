@@ -1,13 +1,16 @@
 import React from "react";
+import Logo from "./cryptox.jpg";
 
 function Header() {
   return (
     <div className="header__wrapper">
         <div className="header__logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram Logo" />
+            <img src={Logo} width={50} />
         </div>
         <div className="header__search">
-            <input type="text" placeholder="Search" />
+            <div className="header__searchContainer">
+                <input type="text" placeholder="Search" />
+            </div>
         </div>
         <div className="header__nav">
             <div className="header__nav__item">
