@@ -2,12 +2,12 @@
     flex: 0.7;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(221, 9, 9);
   }
   
   .newsfeed__container {
     flex: 1;
-    background-color: black;
+    background-color: rgb(16, 239, 57);
     font-size: 12px;
   }
   
@@ -17,7 +17,7 @@
     padding: 20px 0px 20px 0px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #3b4754;
+    border-bottom: 1px solid #00060c;
     margin-bottom: 60px;
   }
   
@@ -105,7 +105,7 @@
   
   .newsfeed__topmovers__section {
     padding: 20px 0px 10px 0px;
-    background-color: black;
+    background-color: rgb(19, 224, 50);
     height: fit-content;
   }
   .newsfeed__topmovers__intro__details {
@@ -120,14 +120,14 @@
   }
   
   .newsfeed__topmovers__cards__container {
-    background-color: black;
+    background-color: rgb(16, 213, 82);
     justify-content: space-evenly;
     padding: 20px 20px 20px 0px;
     display: flex;
   }
   
   .newsfeed__topmovers__card {
-    background-color: black;
+    background-color: rgb(19, 217, 16);
     color: white;
     padding: 20px 20px 20px 20px;
     margin-left: 12px;
