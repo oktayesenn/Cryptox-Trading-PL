@@ -38,7 +38,7 @@ function Newsfeed() {
             <p> $142.90 (-0,12) Today </p>
           </div>
           <div className="newsfeed__chart">
-            <LineGraph />
+            {/* <LineGraph /> */}
             <TimeLine />
           </div>
         </div>
