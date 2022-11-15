@@ -6,7 +6,7 @@ import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import FlashOnIcon from "@material-ui/icons/FlashOn";
 import LineGraph from "./LineGraph";
 import Chip from '@material-ui/core/Chip';
-import TimeLine from './TimeLine'
+import TimeLine from './Timeline';
 
 
 function Newsfeed() {
