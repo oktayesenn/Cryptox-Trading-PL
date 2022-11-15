@@ -6,7 +6,7 @@ import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import FlashOnIcon from "@material-ui/icons/FlashOn";
 import LineGraph from "./LineGraph";
 import Chip from '@material-ui/core/Chip';
-import TimeLine from '../Timeline'
+import TimeLine from './TimeLine'
 
 
 function Newsfeed() {
@@ -38,13 +38,13 @@ function Newsfeed() {
             <p> $142.90 (-0,12) Today </p>
           </div>
           <div className="newsfeed__chart">
-            {/* <LineGraph /> */}
+            <LineGraph />
             <TimeLine />
           </div>
         </div>
         <div className="newsfeed__buying__section">
           <h2> Buying Power</h2>
-          <h2> $48996.11</h2>
+          <h2> $4.11</h2>
         </div>
         <div className="newsfeed__market__section">
           <div className="newsfeed__market__box">
@@ -64,7 +64,7 @@ function Newsfeed() {
                 variant="outlined"
                 label={topic}
                 avatar={<Avatar
-                  src={`https://avatars.dicebear.com/api/stocks/${seed}.svg`}
+                  src={`https://avatars.dicebear.com/api/human/${topic}.svg`}
                 />} 
               />
             ))}
