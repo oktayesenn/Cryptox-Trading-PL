@@ -44,7 +44,7 @@ function Newsfeed() {
         </div>
         <div className="newsfeed__buying__section">
           <h2> Buying Power</h2>
-          <h2> $4.11</h2>
+          <h2> $48996.11</h2>
         </div>
         <div className="newsfeed__market__section">
           <div className="newsfeed__market__box">
@@ -64,7 +64,7 @@ function Newsfeed() {
                 variant="outlined"
                 label={topic}
                 avatar={<Avatar
-                  src={`https://avatars.dicebear.com/api/human/${topic}.svg`}
+                  src={`https://avatars.dicebear.com/api/stocks/${seed}.svg`}
                 />} 
               />
             ))}
