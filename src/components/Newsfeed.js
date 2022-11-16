@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./Newsfeed.css";
 import Article from "./Article";
 import { Avatar } from "@material-ui/core";
-import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
-import FlashOnIcon from "@material-ui/icons/FlashOn";
 import LineGraph from "./LineGraph";
 import Chip from '@material-ui/core/Chip';
 import TimeLine from './Timeline';
@@ -64,7 +62,6 @@ function Newsfeed() {
                 variant="outlined"
                 label={topic}
                 avatar={<Avatar
-                  src={`https://avatars.dicebear.com/api/human/${topic}.svg`}
                 />} 
               />
             ))}
